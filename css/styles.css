@@ -3,14 +3,16 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     text-decoration: none;
-    color: rgb(46, 47, 66)
-    
+    color: rgb(46, 47, 66)  
 }
 
-header address{
-    font-style: normal;
-    font-weight: 400;
+.info a{
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(46, 47, 66)
+
 }
 
 .web {
@@ -38,10 +40,6 @@ list-style-type:none;
 
 h2{
     text-align: center;
-}
-
-.link a{
-    text-decoration: none;
 }
 
 footer{
