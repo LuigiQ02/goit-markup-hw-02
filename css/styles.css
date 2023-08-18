@@ -32,10 +32,18 @@
     color: white;
     text-align: center;
 }
+
+section button{
+background-color: rgb(77, 90, 229);
+color: white;
+border-width: 0;
+border-radius: 4px;
+}
  
 
 ul{
 list-style-type:none;
+padding: 0;
 }
 
 h2{
