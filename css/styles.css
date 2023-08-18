@@ -1,9 +1,63 @@
 
+.link a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(46, 47, 66)
+    
+}
+
+header address{
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
 
 .web {
     color: rgb(77, 90, 229);
+    font-family: 'Raleway', sans-serif,;
+    font-weight: 800;
 }
 
 .studio{
     color: rgb(46, 47, 66);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
+
+.hero{
+    background-color: rgb(46, 47, 66);
+    color: white;
+    text-align: center;
+}
+ 
+
+ul{
+list-style-type:none;
+}
+
+h2{
+    text-align: center;
+}
+
+.link a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(46, 47, 66);
+    color: rgb(244, 244, 253)
+}
+
+footer .studio{
+    color: rgb(244, 244, 253);
+    font-family:'Raleway', sans-serif;;
+    font-weight: 800;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+
