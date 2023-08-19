@@ -6,6 +6,12 @@
     color: rgb(46, 47, 66)
 }
 
+header nav ul :hover{
+    color: rgb(64, 75, 191);
+    
+    
+}
+
 .info a {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -48,7 +54,6 @@ section button {
 }
 
 .features p {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: rgb(67, 68, 85)
 }
@@ -68,7 +73,6 @@ section button {
 
 .designer p {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: rgb(67, 68, 85)
 }
