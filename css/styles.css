@@ -8,8 +8,6 @@
 
 header nav ul :hover{
     color: rgb(64, 75, 191);
-    
-    
 }
 
 .info a {
@@ -39,11 +37,26 @@ header nav ul :hover{
     text-align: center;
 }
 
-section button {
+section button{
     background-color: rgb(77, 90, 229);
     color: white;
     border-width: 0;
     border-radius: 4px;
+}
+
+section button:hover{
+    background-color: rgb(64, 75, 191);
+}
+
+.button-container button{
+    background-color: rgb(244, 244, 253);
+    color: rgb(77, 90, 229);
+    display: block;
+}
+
+.button-container button:hover{
+    background-color: rgb(64, 75, 191);
+    color: white;
 }
 
 /* 1st Section */
