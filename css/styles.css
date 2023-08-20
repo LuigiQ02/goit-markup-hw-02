@@ -1,122 +1,185 @@
 /* Header Section */
-.link a {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav__logo {
+    text-decoration: none;
+}
+
+.nav__web{
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+.nav__studio{
+ color:#2E2F42; 
+ font-family: 'Raleway', sans-serif;        
+ font-weight: 800;
+}
+ .nav__item__link:hover{
+    color: #404BBF;
+
+ }
+
+.nav__item__link{
+    text-decoration: none;
+    color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+}
+.address__link:hover{
+    color: #404BBF;
+}
+.address__link{
     text-decoration: none;
-    color: rgb(46, 47, 66)
-}
-
-header nav ul :hover{
-    color: rgb(64, 75, 191);
-}
-
-.info a {
+    font-style: normal;
+    color: #434455;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    color: rgb(46, 47, 66)
-}
-
-.info a:hover{
-    color: rgb(64, 75, 191);
-}
-
-.web {
-    color: rgb(77, 90, 229);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-}
-
-.studio {
-    color: rgb(46, 47, 66);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
 }
 
 /* Hero Section */
-.hero {
-    background-color: rgb(46, 47, 66);
+.hero{
+    background-color: #2E2F42;
+}
+.hero__title{
     color: white;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 56px;
 }
-
-section button{
-    background-color: rgb(77, 90, 229);
+.hero__btn:hover{
+    background-color: #404BBF;
     color: white;
-    border-width: 0;
-    border-radius: 4px;
+
 }
 
-section button:hover{
-    background-color: rgb(64, 75, 191);
-}
 
-.button-container button{
-    background-color: rgb(244, 244, 253);
-    color: rgb(77, 90, 229);
-    display: block;
-}
-
-.button-container button:hover{
-    background-color: rgb(64, 75, 191);
+.hero__btn{
+    background-color: #4D5AE5;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+    width: 169px;
+    height: 56px;
+    padding: 32px,16px;
 }
-
-/* 1st Section */
-.features h3 {
-    color: rgb(46, 47, 66);
+/* First Section */
+.features__head{
+    color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
-.features p {
+.features__text{
+    color:#434455;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: rgb(67, 68, 85)
 }
 
-/* 3rd Section */
-.team {
-    background-color: rgb(244, 244, 253);
-    color: rgb(46, 47, 66);
-}
-
-.designer h3 {
+/* Second Section */
+.section__tech__head{
     text-align: center;
-    color: rgb(46, 47, 66);
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+}
+
+/* Third Section */
+.team{
+    background-color: #F4F4FD;
+}
+
+.team__head2{
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #2E2F42;
+}
+
+.team__name{
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    color: #2E2F42;
 }
-
-.designer p {
+.team__text{
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    color: rgb(67, 68, 85)
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-h2 {
-    text-align: center;
-    color: rgb(46, 47, 66);
+    color: #434455;
 }
 
 /* Footer Section */
-footer {
-    background-color: rgb(46, 47, 66);
-    color: rgb(244, 244, 253)
+.footer{
+    background-color: #2E2F42;
 }
 
-footer .studio {
-    color: rgb(244, 244, 253);
+.footer__link{
+    text-decoration: none;
+}
+
+.footer__web{
+    color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
-    ;
     font-weight: 800;
 }
 
-footer a {
-    text-decoration: none;
+.footer__studio{
+    color:#F4F4FD ;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
+
+.footer__text{
+    color: #F4F4FD;
+}
+
+
+
+/* Buttons Section Portfolio */
+
+.btn__container{
+    display: block;
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+    width: 116px;
+    height: 48px;
+    padding: 24px, 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.btn__container:hover{
+    background-color: #404BBF;
+    color: white;
+}
+
+/* Portfolio Section-01 */
+
+.section__abt__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #2E2F42;
+}
+
+.section__abt__txt{
+    font-family: 'Roboto', sans-serif;
+    
+    color: #434455;
+
+}
+
